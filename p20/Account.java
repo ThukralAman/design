@@ -7,6 +7,10 @@ class Account
      
      void Save()
      {
+          // Dependency Inversion is broken
+          // Cannot apply overloading here as overloading don't go well with inheritnce
+          // cyclomatic complexity
+          // type check is there
           if(this instanceof SA)
              //save logic for SA
         
