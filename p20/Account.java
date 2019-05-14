@@ -11,6 +11,9 @@ class Account
           // Cannot apply overloading here as overloading don't go well with inheritnce
           // cyclomatic complexity
           // type check is there
+          
+          // Solution: Create a separate class and move the save method to follow the OCP principleand move boundary class at its place. this is 
+          // a domain class.
           if(this instanceof SA)
              //save logic for SA
         
